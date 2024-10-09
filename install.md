@@ -12,17 +12,25 @@ apt-get install -y linux-headers-`uname -r`
 
 # 下载、编译、安装dpdk
 apt-get install -y python3-pip python3-pyelftools libnuma-dev
+
 pip3 install meson ninja
 
 wget https://fast.dpdk.org/rel/dpdk-23.11.2.tar.xz
+
 unxz dpdk-23.11.2.tar.xz
+
 tar xvf dpdk-23.11.2.tar
 
 cd dpdk-stable-23.11.2
+
 meson setup -Dmachine=default build
+
 cd build
+
 ninja
+
 meson install
+
 /sbin/ldconfig -v
 
 # 拷贝
@@ -33,6 +41,7 @@ tar xzvf xsnos-v0.8.0-21-g88dce58-amd64.tar.gz
 
 # 安装
 cd xsnos
+
 ./scripts/install.sh 
 
 # 登陆
