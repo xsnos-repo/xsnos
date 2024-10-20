@@ -3,6 +3,7 @@
 下载地址：https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.7.0-amd64-netinst.iso
 
 # 注意事项
+- xsnos由于依赖关系，是与debian深度绑定的，所以请使用debian12.7版本系统。
 - 非root用户需要确保有sudo权限，并用sudo执行以下命令 
 
 # 安装依赖
