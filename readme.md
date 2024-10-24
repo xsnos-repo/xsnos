@@ -23,4 +23,5 @@ xsnos对于自用是免费的，并将一直免费下去。
 
 # 讨论群
 请加管理员微信，注明加xsnos讨论群
-![管理员微信](./asset/wechat.jpg "微信")
+![管理员1](./asset/wechat.jpg "微信")
+![管理员2](./asset/hywechat.jpg "微信")
